@@ -7,32 +7,32 @@
 **/
 @font-face {
     font-family: 'Roboto';
-    src: url("../fonts/Roboto-Bold.eot");
-    src: local("Roboto Bold"),local("Roboto-Bold"),url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"),url("../fonts/Roboto-Bold.woff2") format("woff2"),url("../fonts/Roboto-Bold.woff") format("woff"),url("../fonts/Roboto-Bold.ttf") format("truetype");
+    src: url("../assers/fonts/Roboto-Bold.eot");
+    src: local("Roboto Bold"),local("Roboto-Bold"),url("../assers/fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"),url("../assers/fonts/Roboto-Bold.woff2") format("woff2"),url("../assers/fonts/Roboto-Bold.woff") format("woff"),url("../assers/fonts/Roboto-Bold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url("../fonts/Roboto-Medium.eot");
-    src: local("Roboto Medium"),local("Roboto-Medium"),url("../fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"),url("../fonts/Roboto-Medium.woff2") format("woff2"),url("../fonts/Roboto-Medium.woff") format("woff"),url("../fonts/Roboto-Medium.ttf") format("truetype");
+    src: url("../assers/fonts/Roboto-Medium.eot");
+    src: local("Roboto Medium"),local("Roboto-Medium"),url("../assers/fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"),url("../assers/fonts/Roboto-Medium.woff2") format("woff2"),url("../assers/fonts/Roboto-Medium.woff") format("woff"),url("../assers/fonts/Roboto-Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url("../fonts/Roboto-Regular.eot");
-    src: local("Roboto"),local("Roboto-Regular"),url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),url("../fonts/Roboto-Regular.woff2") format("woff2"),url("../fonts/Roboto-Regular.woff") format("woff"),url("../fonts/Roboto-Regular.ttf") format("truetype");
+    src: url("../assers/fonts/Roboto-Regular.eot");
+    src: local("Roboto"),local("Roboto-Regular"),url("../assers/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),url("../assers/fonts/Roboto-Regular.woff2") format("woff2"),url("../assers/fonts/Roboto-Regular.woff") format("woff"),url("../assers/fonts/Roboto-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Oswald';
-    src: url("../fonts/Oswald-Bold.eot");
-    src: local("Oswald Bold"),local("Oswald-Bold"),url("../fonts/Oswald-Bold.eot?#iefix") format("embedded-opentype"),url("../fonts/Oswald-Bold.woff2") format("woff2"),url("../fonts/Oswald-Bold.woff") format("woff"),url("../fonts/Oswald-Bold.ttf") format("truetype");
+    src: url("../assers/fonts/Oswald-Bold.eot");
+    src: local("Oswald Bold"),local("Oswald-Bold"),url("../assers/fonts/Oswald-Bold.eot?#iefix") format("embedded-opentype"),url("../assers/fonts/Oswald-Bold.woff2") format("woff2"),url("../assers/fonts/Oswald-Bold.woff") format("woff"),url("../assers/fonts/Oswald-Bold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal
 }
@@ -251,7 +251,7 @@ h6,.h6,.fz-6 {
 }
 
 .bg-accent {
-    background-color: #2a81ea !important
+    background-color: #66bc69 !important
 }
 
 .bg-accent-light {
@@ -351,7 +351,7 @@ h6,.h6,.fz-6 {
     right: 0
 }
 
-.shape-a {
+/*.shape-a {
     background-image: url("../images/shape-a.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -405,7 +405,7 @@ h6,.h6,.fz-6 {
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 100%
-}
+}*/
 
 .bottom {
     top: auto
@@ -455,7 +455,7 @@ h6,.h6,.fz-6 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #2a81ea;
+    background-color: #66bc69;
     color: #fff;
     font-weight: bold;
     padding: 0.5rem 1.25rem;
@@ -475,14 +475,14 @@ h6,.h6,.fz-6 {
 
 .btn:hover {
     color: #fff;
-    background-color: #1468cd
+    background-color: #66bc69
 }
 
 .btn-transparent {
     background-color: transparent !important;
     padding-left: 0;
     padding-right: 0;
-    color: #2a81ea
+    color: #66bc69
 }
 
 .tc-light .btn-transparent {
@@ -490,7 +490,7 @@ h6,.h6,.fz-6 {
 }
 
 .btn-transparent:hover {
-    color: #1468cd
+    color: #66bc69
 }
 
 .tc-light .btn-transparent:hover {
@@ -508,7 +508,7 @@ h6,.h6,.fz-6 {
 
 .btn-white {
     background-color: #fff;
-    color: #2a81ea
+    color: #66bc69
 }
 
 .btn-white:hover {
@@ -696,10 +696,14 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
     line-height: 1.67
 }
 
+h1.heading {
+    font-size: 2rem;
+}
+
 .nk-banner-block .heading {
     display: flex;
     align-items: center;
-    font-size: 3.5rem;
+    font-size: 2rem;
     line-height: 1;
     vertical-align: middle;
     margin-bottom: 1rem;
@@ -966,7 +970,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 
 .text-block .subtitle {
     text-transform: uppercase;
-    color: #2a81ea;
+    color: #66bc69;
     font-size: 1.125rem;
     margin-bottom: .125rem;
     letter-spacing: .1em
@@ -1019,7 +1023,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .text-block-s2 p span {
-    color: #2a81ea
+    color: #66bc69
 }
 
 @media (min-width: 576px) {
@@ -1049,7 +1053,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 
 .box-content .title {
     margin-bottom: .5rem;
-    color: #2a81ea;
+    color: #66bc69;
     font-weight: 500;
     letter-spacing: -0.025em
 }
@@ -1103,7 +1107,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 
 .box2-content .title {
     margin-bottom: 0.6875rem;
-    color: #2a81ea;
+    color: #66bc69;
     font-weight: 500;
     letter-spacing: -0.01em
 }
@@ -1215,7 +1219,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .box5 .title {
-    color: #2a81ea
+    color: #66bc69
 }
 
 .tc-light .box5 .title {
@@ -1328,7 +1332,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .box7-content .title {
-    color: #2a81ea;
+    color: #66bc69;
     margin-bottom: 0.25rem
 }
 
@@ -1347,7 +1351,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .box8-content p strong {
-    color: #2a81ea
+    color: #66bc69
 }
 
 @media (min-width: 375px) {
@@ -1383,7 +1387,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 
 .feature-content .title {
     margin-bottom: 0.6875rem;
-    color: #2a81ea;
+    color: #66bc69;
     font-weight: 500;
     letter-spacing: -0.01em
 }
@@ -1423,8 +1427,8 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .list-check li a {
-    color: #2a81ea;
-    box-shadow: 0 1px 0 0 #2a81ea
+    color: #66bc69;
+    box-shadow: 0 1px 0 0 #66bc69
 }
 
 .list-check li a:hover {
@@ -1448,8 +1452,8 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .list-dot li a {
-    color: #2a81ea;
-    box-shadow: 0 1px 0 0 #2a81ea
+    color: #66bc69;
+    box-shadow: 0 1px 0 0 #66bc69
 }
 
 .list-dot li a:hover {
@@ -1504,7 +1508,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .blog-text .title a:hover {
-    color: #2a81ea
+    color: #66bc69
 }
 
 @media (min-width: 576px) {
@@ -1536,7 +1540,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
     height: 86px;
     width: 86px;
     border-radius: 50%;
-    border: 2px solid #2a81ea;
+    border: 2px solid #66bc69;
     flex-shrink: 0
 }
 
@@ -1569,7 +1573,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 
 .protect-text .title {
     font-size: .8125rem;
-    color: #2a81ea
+    color: #66bc69
 }
 
 @media (min-width: 576px) {
@@ -1662,7 +1666,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 
 .accordion-title {
     position: relative;
-    color: #2a81ea;
+    color: #66bc69;
     font-weight: 500;
     cursor: pointer;
     padding: 1.25rem 4.375rem 1.25rem 1.25rem;
@@ -1677,7 +1681,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .accordion-title.collapsed:hover {
-    color: #2a81ea
+    color: #66bc69
 }
 
 .accordion-title.collapsed .accordion-icon:before {
@@ -1751,7 +1755,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .accordion-s2 .accordion-icon {
-    color: #2a81ea;
+    color: #66bc69;
     background-color: transparent;
     left: -.625rem;
     right: auto
@@ -1768,7 +1772,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 
 .accordion-s2 .accordion-title .title {
     font-size: 1.1rem;
-    color: #2a81ea
+    color: #66bc69
 }
 
 .accordion-s2 .accordion-title.collapsed {
@@ -1816,13 +1820,13 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
     margin-left: auto;
     font-family: "Nioicon";
     content: "";
-    color: #2a81ea;
+    color: #66bc69;
     opacity: .6
 }
 
 .nav-tabs-btns .nav-link:hover,.nav-tabs-btns .nav-link.active {
-    color: #2a81ea;
-    border-color: #2a81ea
+    color: #66bc69;
+    border-color: #66bc69
 }
 
 .nav-tabs-btns .nav-link:hover:after,.nav-tabs-btns .nav-link.active:after {
@@ -1852,8 +1856,8 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .nav-tabs-line .nav-link:hover,.nav-tabs-line .nav-link.active {
-    color: #2a81ea;
-    border-color: #2a81ea
+    color: #66bc69;
+    border-color: #66bc69
 }
 
 @media (min-width: 576px) {
@@ -1891,7 +1895,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .wgs-links li a:hover {
-    color: #2a81ea
+    color: #66bc69
 }
 
 .tc-light .wgs-links li a {
@@ -1899,7 +1903,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .tc-light .wgs-links li a:hover {
-    color: #2a81ea
+    color: #66bc69
 }
 
 .wgs-about-text:not(:first-child) {
@@ -1943,7 +1947,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .wgs-social li a:hover {
-    background: #2a81ea
+    background: #66bc69
 }
 
 .wgs-card {
@@ -1971,7 +1975,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
     font-size: 1rem;
     line-height: 1.5rem;
     padding: 1.125rem 1.25rem;
-    color: #2a81ea
+    color: #66bc69
 }
 
 .wgs-list li a:after {
@@ -2010,7 +2014,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .nk-copyright a:hover {
-    color: #2a81ea
+    color: #66bc69
 }
 
 .tc-light .nk-copyright {
@@ -2022,7 +2026,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .tc-light .nk-copyright a:hover {
-    color: #2a81ea
+    color: #66bc69
 }
 
 .nk-dislaimer {
@@ -2182,7 +2186,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .nk-offcanvas-wg-text .title span {
-    color: #2a81ea
+    color: #66bc69
 }
 
 .nk-offcanvas-wg-text p {
@@ -2321,7 +2325,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 
 .section-head .subtitle {
     text-transform: uppercase;
-    color: #2a81ea;
+    color: #66bc69;
     font-size: 12px;
     margin-bottom: .125rem;
     letter-spacing: 0.04em
@@ -2380,7 +2384,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .section-cta .notes p strong {
-    color: #2a81ea;
+    color: #66bc69;
     font-style: normal
 }
 
@@ -2414,7 +2418,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .section-head-s2 p span {
-    color: #2a81ea
+    color: #66bc69
 }
 
 .section-head-s2.text-center[class*="wide"] {
@@ -2697,7 +2701,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .nk-menu li a:hover,.nk-menu li a.active {
-    color: #2a81ea
+    color: #66bc69
 }
 
 .nk-menu li li a {
@@ -2709,7 +2713,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .nk-menu li li a:hover,.nk-menu li li a.active {
-    color: #2a81ea
+    color: #66bc69
 }
 
 .nk-menu-sub {
@@ -2744,7 +2748,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
     }
 
     .nk-menu li a:hover,.nk-menu li a.active {
-        color: #2a81ea
+        color: #66bc69
     }
 
     .tc-light .nk-menu li a {
@@ -2752,7 +2756,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
     }
 
     .tc-light .nk-menu li a:hover,.tc-light .nk-menu li a.active {
-        color: #2a81ea
+        color: #66bc69
     }
 
     .is-light.has-fixed .nk-menu li a {
@@ -2760,7 +2764,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
     }
 
     .is-light.has-fixed .nk-menu li a:hover,.is-light.has-fixed .nk-menu li a.active {
-        color: #2a81ea
+        color: #66bc69
     }
 
     .nk-menu li:hover .nk-menu-dropdown {
@@ -2831,7 +2835,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 
 .nk-page-head-text .subtitle {
     text-transform: uppercase;
-    color: #2a81ea;
+    color: #66bc69;
     font-size: 12px;
     margin-bottom: .125rem;
     letter-spacing: 0.04em
@@ -2916,7 +2920,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .nk-footer-links li a:hover {
-    color: #2a81ea
+    color: #66bc69
 }
 
 .tc-light .nk-footer-links li a {
@@ -2924,7 +2928,7 @@ input ~ .error:after,textarea ~ .error:after,select ~ .error:after {
 }
 
 .tc-light .nk-footer-links li a:hover {
-    color: #2a81ea
+    color: #66bc69
 }
 
 @media (min-width: 576px) {
